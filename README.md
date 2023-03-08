@@ -104,12 +104,12 @@ Please refer to the [`dev-server` documentation](https://github.com/ioBroker/dev
 -->
 
 ### **WORK IN PROGRESS**
-* (Andreas) initial release
+* (Andreas Knarek) initial release
 
 ## License
 MIT License
 
-Copyright (c) 2023 Andreas <github@knarek.at>
+Copyright (c) 2023 Andreas Knarek<github@knarek.at>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
