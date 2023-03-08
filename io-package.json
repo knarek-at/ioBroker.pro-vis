@@ -1,0 +1,106 @@
+{
+    "common": {
+        "name": "pro-vis",
+        "version": "0.0.1",
+        "news": {
+            "0.0.1": {
+                "en": "initial release",
+                "de": "Erstveröffentlichung",
+                "ru": "Начальная версия",
+                "pt": "lançamento inicial",
+                "nl": "Eerste uitgave",
+                "fr": "Première version",
+                "it": "Versione iniziale",
+                "es": "Versión inicial",
+                "pl": "Pierwsze wydanie",
+                "zh-cn": "首次出版"
+            }
+        },
+        "title": "ProVIS",
+        "titleLang": {
+            "en": "ProVIS",
+            "de": "ProVIS",
+            "ru": "ПроВИС",
+            "pt": "ProVIS",
+            "nl": "ProVIS",
+            "fr": "ProVIS",
+            "it": "ProVIS",
+            "es": "PROVIS",
+            "pl": "ProVIS",
+            "zh-cn": "专业视觉信息系统"
+        },
+        "desc": {
+            "en": "Great new visualisation adapter",
+            "de": "Toller neuer Visualisierungsadapter",
+            "ru": "Отличный новый адаптер визуализации",
+            "pt": "Ótimo novo adaptador de visualização",
+            "nl": "Geweldige nieuwe visualisatie-adapter",
+            "fr": "Excellent nouvel adaptateur de visualisation",
+            "it": "Ottimo nuovo adattatore di visualizzazione",
+            "es": "Excelente nuevo adaptador de visualización",
+            "pl": "Świetny nowy adapter do wizualizacji",
+            "zh-cn": "伟大的新可视化适配器"
+        },
+        "authors": [
+            "Andreas <github@knarek.at>"
+        ],
+        "keywords": [
+            "vis",
+            "responsive"
+        ],
+        "license": "MIT",
+        "platform": "Javascript/Node.js",
+        "main": "build/main.js",
+        "icon": "pro-vis.png",
+        "enabled": true,
+        "extIcon": "https://raw.githubusercontent.com/knarek-at/ioBroker.pro-vis/main/admin/pro-vis.png",
+        "readme": "https://github.com/knarek-at/ioBroker.pro-vis/blob/main/README.md",
+        "loglevel": "info",
+        "restartAdapters": [
+            "vis"
+        ],
+        "mode": "daemon",
+        "type": "visualization",
+        "compact": true,
+        "connectionType": "local",
+        "dataSource": "poll",
+        "adminUI": {
+            "config": "materialize",
+            "tab": "materialize"
+        },
+        "adminTab": {
+            "singleton": true,
+            "name": {
+                "en": "ProVIS",
+                "de": "ProVIS",
+                "ru": "ПроВИС",
+                "pt": "ProVIS",
+                "nl": "ProVIS",
+                "fr": "ProVIS",
+                "it": "ProVIS",
+                "es": "PROVIS",
+                "pl": "ProVIS",
+                "zh-cn": "专业视觉信息系统"
+            },
+            "link": "",
+            "fa-icon": "info"
+        },
+        "dependencies": [
+            {
+                "js-controller": ">=3.3.22"
+            },
+            "vis"
+        ],
+        "globalDependencies": [
+            {
+                "admin": ">=5.0.0"
+            }
+        ]
+    },
+    "native": {
+        "option1": true,
+        "option2": "42"
+    },
+    "objects": [],
+    "instanceObjects": []
+}

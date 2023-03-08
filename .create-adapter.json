@@ -1,0 +1,47 @@
+{
+    "cli": true,
+    "target": "directory",
+    "adapterName": "pro-vis",
+    "title": "ProVIS",
+    "description": "Great new visualisation adapter",
+    "keywords": [
+        "vis",
+        "responsive"
+    ],
+    "expert": "yes",
+    "features": [
+        "adapter",
+        "vis"
+    ],
+    "adminFeatures": [
+        "tab"
+    ],
+    "type": "visualization",
+    "startMode": "daemon",
+    "connectionType": "local",
+    "dataSource": "poll",
+    "connectionIndicator": "no",
+    "language": "TypeScript",
+    "nodeVersion": "14",
+    "adminUi": "html",
+    "tabReact": "no",
+    "tools": [
+        "ESLint"
+    ],
+    "i18n": "JSON",
+    "releaseScript": "yes",
+    "devServer": "yes",
+    "devServerPort": 8081,
+    "indentation": "Space (4)",
+    "quotes": "double",
+    "es6class": "yes",
+    "authorName": "Andreas",
+    "authorGithub": "knarek-at",
+    "authorEmail": "github@knarek.at",
+    "gitRemoteProtocol": "HTTPS",
+    "gitCommit": "yes",
+    "defaultBranch": "main",
+    "license": "MIT License",
+    "dependabot": "yes",
+    "creatorVersion": "2.3.0"
+}
