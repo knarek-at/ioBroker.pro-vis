@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Great new visualisation adapter",
   "author": {
-    "name": "Andreas",
+    "name": "Andreas Knarek",
     "email": "github@knarek.at"
   },
   "homepage": "https://github.com/knarek-at/ioBroker.pro-vis",
@@ -76,7 +76,8 @@
     "check": "tsc --noEmit",
     "lint": "eslint --ext .ts src/",
     "translate": "translate-adapter",
-    "release": "release-script"
+    "release": "release-script",
+    "dev-server": "dev-server watch"
   },
   "bugs": {
     "url": "https://github.com/knarek-at/ioBroker.pro-vis/issues"
